@@ -271,9 +271,34 @@ main {
 
 footer {
   text-align: center;
-  padding: 1.5rem 0;
+  padding: 2rem 0;
   color: #94a3b8;
   font-size: 0.95rem;
+  background: rgba(15,23,42,0.95);
+  border-top: 1px solid rgba(148,163,184,0.12);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.footer-links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer-links a {
+  color: #60a5fa;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #3b82f6;
 }
 
 @media (max-width: 900px) {
